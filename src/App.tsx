@@ -1,5 +1,7 @@
+import { ArrayUpdating } from "./components/ArrayUpdating";
 import ListGroup from "./components/ListGroup";
 import ListGroup1 from "./components/ListGroup1";
+import { NestedObjectUpdate } from "./components/NestedObjectUpdate";
 
 function App(){
   let items=[
@@ -14,9 +16,12 @@ function App(){
 
   }
   return <div>
-    {/* <ListGroup/> */}
+    {/* <ListGroup/> 
     <ListGroup1 items={items}
      heading="Indian Cities" onSelectItem={handleSelectItem}/>
-  </div>
+  */}
+  <NestedObjectUpdate/>
+  <ArrayUpdating/>
+     </div>
 }
 export default App
