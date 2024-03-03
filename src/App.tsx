@@ -1,4 +1,6 @@
 import { ArrayUpdating } from "./components/ArrayUpdating";
+import ArrayofObjects from "./components/ArrayofObjects";
+import { Form1 } from "./components/Form1";
 import ListGroup from "./components/ListGroup";
 import ListGroup1 from "./components/ListGroup1";
 import { NestedObjectUpdate } from "./components/NestedObjectUpdate";
@@ -20,8 +22,11 @@ function App(){
     <ListGroup1 items={items}
      heading="Indian Cities" onSelectItem={handleSelectItem}/>
   */}
-  <NestedObjectUpdate/>
-  <ArrayUpdating/>
+  {/* <NestedObjectUpdate/>
+  <ArrayUpdating/> 
+  <ArrayofObjects/>*/}
+
+  <Form1/>
      </div>
 }
 export default App
