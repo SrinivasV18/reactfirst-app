@@ -1,6 +1,8 @@
 import { ArrayUpdating } from "./components/ArrayUpdating";
 import ArrayofObjects from "./components/ArrayofObjects";
 import { Form1 } from "./components/Form1";
+import { Form2 } from "./components/Form2";
+import { HookForm } from "./components/HookForm";
 import ListGroup from "./components/ListGroup";
 import ListGroup1 from "./components/ListGroup1";
 import { NestedObjectUpdate } from "./components/NestedObjectUpdate";
@@ -24,9 +26,11 @@ function App(){
   */}
   {/* <NestedObjectUpdate/>
   <ArrayUpdating/> 
-  <ArrayofObjects/>*/}
-
+  <ArrayofObjects/>
   <Form1/>
+  
+  <Form2/>*/}
+  <HookForm/>
      </div>
 }
 export default App
