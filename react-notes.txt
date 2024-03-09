@@ -1,4 +1,4 @@
 
-npm i react-hook-form@7.43
+npm i react-hook-form
 
-npm i zod@3.0.26
+npm i zod
